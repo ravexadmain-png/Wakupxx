@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WakUp - Video Platform</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #121212;
+            color: #ffffff;
+        }
+        header {
+            background-color: #212121;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #333;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff0055;
+            letter-spacing: -1px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+        h2 {
+            margin-bottom: 20px;
+            font-size: 20px;
+            font-weight: normal;
+            color: #aaa;
+        }
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .video-card {
+            background-color: #1e1e1e;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.2s;
+            cursor: pointer;
+            text-decoration: none;
+            display: block;
+        }
+        .video-card:hover {
+            transform: scale(1.03);
+        }
+        .thumbnail-container {
+            width: 100%;
+            height: 145px; /* Uniform thumbnail size container */
+            background-color: #000;
+            overflow: hidden;
+        }
+        .thumbnail-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Optimizes and scales images cleanly */
+        }
+        .video-info {
+            padding: 12px;
+        }
+        .video-title {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 6px;
+            color: #fff;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .video-meta {
+            font-size: 12px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">WakUp</div>
+        <div class="search-bar">🔍 Search</div>
+    </header>
+
+    <div class="container">
+        <h2>Recommended Videos</h2>
+        
+        <div class="video-grid">
+            <!-- Video Item 1 -->
+            <a href="https://www.profitableratecpmnetwork.com/ar5ag62qw?key=bee521f29795c916d7a8e366e567954f" class="video-card" target="_blank">
+                <div class="thumbnail-container">
+                    <img src="image.jpg" alt="Thumbnail 1">
+                </div>
+                <div class="video-info">
+                    <div class="video-title">Awesome Featured Content Clip #1</div>
+                    <div class="video-meta">125K views • 2 days ago</div>
+                </div>
+            </a>
+
+            <!-- Video Item 2 -->
+            <a href="https://www.profitableratecpmnetwork.com/ar5ag62qw?key=bee521f29795c916d7a8e366e567954f" class="video-card" target="_blank">
+                <div class="thumbnail-container">
+                    <img src="image1.jpg" alt="Thumbnail 2">
+                </div>
+                <div class="video-info">
+                    <div class="video-title">Trending Highlight Reel #2</div>
+                    <div class="video-meta">84K views • 5 days ago</div>
+                </div>
+            </a>
+
+            <!-- Video Item 3 -->
+            <a href="https://www.profitableratecpmnetwork.com/ar5ag62qw?key=bee521f29795c916d7a8e366e567954f" class="video-card" target="_blank">
+                <div class="thumbnail-container">
+                    <img src="image2.jpg" alt="Thumbnail 3">
+                </div>
+                <div class="video-info">
+                    <div class="video-title">Exclusive Stream Session #3</div>
+                    <div class="video-meta">320K views • 1 week ago</div>
+                </div>
+            </a>
+
+            <!-- Video Item 4 -->
+            <a href="https://www.profitableratecpmnetwork.com/ar5ag62qw?key=bee521f29795c916d7a8e366e567954f" class="video-card" target="_blank">
+                <div class="thumbnail-container">
+                    <img src="image3.jpg" alt="Thumbnail 4">
+                </div>
+                <div class="video-info">
+                    <div class="video-title">Popular Creator Special #4</div>
+                    <div class="video-meta">45K views • 3 hours ago</div>
+                </div>
+            </a>
+
+            <!-- Video Item 5 -->
+            <a href="https://www.profitableratecpmnetwork.com/ar5ag62qw?key=bee521f29795c916d7a8e366e567954f" class="video-card" target="_blank">
+                <div class="thumbnail-container">
+                    <img src="image5.html" alt="Thumbnail 5">
+                </div>
+                <div class="video-info">
+                    <div class="video-title">Top Rated Broadcast #5</div>
+                    <div class="video-meta">210K views • 3 weeks ago</div>
+                </div>
+            </a>
+
+            <!-- Video Item 6 -->
+            <a href="https://www.profitableratecpmnetwork.com/ar5ag62qw?key=bee521f29795c916d7a8e366e567954f" class="video-card" target="_blank">
+                <div class="thumbnail-container">
+                    <img src="image6.html" alt="Thumbnail 6">
+                </div>
+                <div class="video-info">
+                    <div class="video-title">Live Event Recording #6</div>
+                    <div class="video-meta">98K views • 4 days ago</div>
+                </div>
+            </a>
+
+            <!-- Video Item 7 -->
+            <a href="https://www.profitableratecpmnetwork.com/ar5ag62qw?key=bee521f29795c916d7a8e366e567954f" class="video-card" target="_blank">
+                <div class="thumbnail-container">
+                    <img src="image7.html" alt="Thumbnail 7">
+                </div>
+                <div class="video-info">
+                    <div class="video-title">Masterclass Series #7</div>
+                    <div class="video-meta">15K views • 1 day ago</div>
+                </div>
+            </a>
+
+            <!-- Video Item 8 -->
+            <a href="https://www.profitableratecpmnetwork.com/ar5ag62qw?key=bee521f29795c916d7a8e366e567954f" class="video-card" target="_blank">
+                <div class="thumbnail-container">
+                    <img src="image8.html" alt="Thumbnail 8">
+                </div>
+                <div class="video-info">
+                    <div class="video-title">Community Spotlight #8</div>
+                    <div class="video-meta">512K views • 1 month ago</div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- INTEGRATED AD NETWORK SCRIPTS -->
+    <!-- Popunder Script -->
+    <script src="https://pl31836177.profitableratecpmnetwork.com/52/8b/57/528b5766fee9a34dcda052da99702751.js"></script>
+
+    <!-- Social Bar Scripts -->
+    <script src="https://pl31836180.profitableratecpmnetwork.com/a5/c1/a8/a5c1a8ed62f85948f64c2e754ab24c52.js"></script>
+    <script src="https://pl29294836.profitableratecpmnetwork.com/2e/5f/e8/2e5fe89c7bab0936e4c11206b9cde0d4.js"></script>
+
+</body>
+</html>
